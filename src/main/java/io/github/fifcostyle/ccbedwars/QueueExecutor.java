@@ -50,7 +50,6 @@ public class QueueExecutor extends GameManager implements CommandExecutor {
 					}
 				}
 			}
-			else return false;
 		}
 		return false;
 	}
