@@ -2,6 +2,7 @@ package io.github.fifcostyle.ccbedwars;
 
 import java.util.List;
 
+import org.bukkit.Location;
 import org.bukkit.block.Chest;
 import org.bukkit.block.EnderChest;
 import org.bukkit.entity.Player;
@@ -21,7 +22,8 @@ public class GameManager implements Listener{
 	{
 		for(int i = 0; i <= players.size(); i++)
 		{
-			
+			Player target = players.get(i);
+			Location tpLocation = new Location(x, y, z, pitch, yaw);
 		}
 	}
 	public void StartDoublesGame(List<Player> players)
