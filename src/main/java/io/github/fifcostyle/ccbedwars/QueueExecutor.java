@@ -16,10 +16,7 @@ public class QueueExecutor extends GameManager implements CommandExecutor {
 	{
 		if (cmd.getName().equalsIgnoreCase("bwjoin"))
 		{
-			if (args.length == 0)
-			{
-				
-			}
+			if (args.length == 0) return false;
 			else if (args.length == 1)
 			{
 				if (sender instanceof Player)
