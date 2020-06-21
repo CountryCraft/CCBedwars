@@ -23,7 +23,7 @@ public class GameManager implements Listener{
 		for(int i = 0; i <= players.size(); i++)
 		{
 			Player target = players.get(i);
-			Location tpLocation = new Location(x, y, z, pitch, yaw);
+			//Location tpLocation = new Location(x, y, z, pitch, yaw);
 		}
 	}
 	public void StartDoublesGame(List<Player> players)
